@@ -1,6 +1,6 @@
 import turtle
 import numpy as np
-import random
+
 
 
 def main(speed=0, bg_color="grey"):
@@ -17,9 +17,9 @@ def main(speed=0, bg_color="grey"):
  
     """TODO: define different colors here"""
     def randcolor():
-        r = random.randint(0, 255)
-        g = random.randint(0, 255)
-        b = random.randint(0, 255)
+        r = np.random.randint(0, 255)
+        g = np.random.randint(0, 255)
+        b = np.random.randint(0, 255)
         randcolor = (r, g, b)
         return randcolor
 
