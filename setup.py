@@ -7,5 +7,5 @@ set(
     author="Saber",
     author_email="saber.jelodari@fau.de",
     pakages=find_packages(),
-    install_requires=["numpy","turtles"],
+    install_requires=["numpy","turtles","random"],
 )
